@@ -1,0 +1,32 @@
+package TestClass;
+
+public class MethodTest1 {
+	
+public  void  studentRank(int marks) {
+	
+if(marks >= 600) {
+	System.out.println("Rank A");
+}
+else if(marks >= 500) {
+	System.out.println("Rank B");
+}
+else {
+	System.out.println("Rank c");
+}
+}
+public void xyz() {
+	System.out.println(10+20);
+}
+
+public static void main(String[]args) {
+
+	MethodTest1 obj = new MethodTest1();
+	obj.studentRank(800);
+	obj.studentRank(570);
+	obj.studentRank(470);
+	obj.xyz();
+	
+  }
+}
+
+
