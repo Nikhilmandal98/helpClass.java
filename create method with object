@@ -1,0 +1,27 @@
+package methods;
+
+public class MethodLearning {
+	//create method and call the method with invoking object.return type nothing.
+	public  void studentsRank(int marks){
+	
+	if (marks >=600){
+	System.out.println("Rank A");
+	
+	}
+	else if(marks>=500){
+		System.out.println("Rank B");
+	}
+	else{
+		System.out.println("Rank c");
+	}
+	}
+	
+	public static void main(String[] args) {
+	
+	MethodLearning obj = new MethodLearning();
+	obj.studentsRank(700);
+	obj.studentsRank(580);
+	obj.studentsRank(490);
+		
+	}
+	}
