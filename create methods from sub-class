@@ -1,0 +1,14 @@
+package methods;
+
+public class Class1 extends MethodLearning{
+
+	public static void main(String[] args) {
+	
+	Class1 obj = new Class1();//accsessing class from super class.
+	obj.studentsRank(700);
+		
+		
+
+	}
+
+}
