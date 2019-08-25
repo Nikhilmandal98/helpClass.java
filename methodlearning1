@@ -1,0 +1,14 @@
+package methods;
+
+public class MethodLearning {
+	public static int add(int a, int b, int c){
+		int result;
+		result = a+b+c;
+		return result;
+	}
+	public static void main(String[] args) {
+		int x =add(12,15,65);
+		System.out.println(x);
+		
+	}
+	}
