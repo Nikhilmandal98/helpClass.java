@@ -1,0 +1,12 @@
+package methods;
+
+public class MethodLearning {
+
+	public static void main(String[] args) {
+		int a=10;
+		int b=25;
+		int result=a+b;
+		String myname="Nikhil Kumar Mandal";
+		System.out.println(myname);
+	}
+	}
